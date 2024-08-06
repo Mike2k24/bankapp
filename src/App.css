@@ -1,0 +1,26 @@
+#main-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#bank-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4pt solid;
+    border-color: aqua purple;
+    position: relative;
+    padding: 15pt;
+    width: 50vw;
+    height: 50vh;
+}
+button{
+    width: 15vw;
+    height: 50vh;
+    margin: 15pt;
+    padding-bottom: 10pt;   
+}
